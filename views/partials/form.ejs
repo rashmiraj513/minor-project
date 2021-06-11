@@ -1,0 +1,36 @@
+<!-- Pricing Section -->
+<section id="pricing">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div style="width: 30%;">
+                <h2>Spend your holiday in one of the best hotels.</h2><br>
+                <a href="/users/login" class="btn btn-outline-dark">Book A Room Now.</a>
+            </div>
+            <div class="form-div">
+                <p style="font-size: 1.6rem;">Book A Room</p>
+                <form action="/" method="POST">
+                    <input class="form-control form-control-lg" type="date" name="userCheckIn" placeholder="Check In" aria-label=".form-control-lg example" required> <br>
+                    <input class="form-control form-control-lg" type="date" name="userCheckOut" placeholder="Check Out" aria-label=".form-control-lg example" required><br>
+                    <div class="input-group mb-3">
+                        <select class="form-select form-control" id="inputGroupSelect01" name="userRooms" required>
+                            <option selected>Rooms</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <select class="form-select form-control" id="inputGroupSelect01" name="userGuests" required>
+                            <option selected>Guest</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-outline-primary form-control">Check Availability</button>
+                    <p><%=roomErrorMessage %> </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
