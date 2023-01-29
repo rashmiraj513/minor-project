@@ -1,0 +1,44 @@
+/* Body Selector  */
+
+/* Rooms Selector */
+
+#rooms {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-bottom: 0%;
+    padding-top: 7%;
+    margin-bottom: -5%;
+    color: #391F14;
+}
+
+#rooms h1 {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.image-specs {
+    padding: 0 5%;
+}
+
+.image-specs img {
+    height: 400px;
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+
+.image-specs h4 {
+    text-align: left;
+    padding-bottom: 1%;
+}
+
+.image-specs p {
+    text-align-last: left;
+    padding-bottom: 3%;
+    color: #8f8f8f;
+}
+
+.image-specs h6 {
+    color: #A85432;
+    text-align: right;
+}
